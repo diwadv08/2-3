@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<form action="2.html" method="post">
+    <table cellpadding="10">
+        <tr>
+            <td>
+                <label for="">Name</label>
+            </td>
+            <td>
+                <input type="text" placeholder="Enter your name" required>
+                <input type="text" placeholder="Enter your name" value="Hello" mlength="10">
+                <input type="text" placeholder="Enter your name" value="Hello" readonly>
+                <input type="text" placeholder="Enter your name" value="Hello" disabled>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="">Age</label>
+            </td>
+            
+            <td>
+                <input type="number" min="1000" step="1000" max="10000">
+            </td>
+        </tr>
+        <tr>
+            <td><label for="">Date/time/week/month</label></td>
+            <td>
+                <input type="date">
+                <input type="time">
+                <input type="week">
+                <input type="month">
+                <input type="datetime-local">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="jj">Mobile Number</label>
+            </td>
+            <td>
+                <input type="text" id="jj">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="nn">Password/Email</label>
+            </td>
+            <td>
+                <input type="password" id="nn">
+                <input type="email" placeholder="Enter Email">
+                <input type="url" placeholder="Enter Url">
+            </td>
+        </tr>
+        <tr>
+            <td><label for="">Gender</label></td>
+            <td>
+                <input type="radio" name="w1" checked><label for="">Male</label>
+                <input type="radio" name="w1"><label for="">FeMale</label>
+                <input type="checkbox" checked disabled><label for="">10th</label>
+                <input type="checkbox" checked><label for="">12th</label>
+                <input type="checkbox"><label for="">UG</label>
+                <input type="checkbox"><label for="">PG</label>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="range">
+            </td>
+            <td>
+                <input type="color">
+                <label for="img">
+                    <img src="https://media.istockphoto.com/id/1265159076/vector/contact-us-line-icons-vector-illustration-included-icon-as-registration-form-outline.jpg?s=612x612&w=0&k=20&c=qBmpAU1I8cQbXA_37HVV_JmVEyg46gyGFvzgORWfIt8=" alt="" height="90">
+                </label>
+                <input type="file" id="img" accept="application/pdf" hidden>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <select>
+                    <option hidden>Select An Number</option>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                </select>
+            </td>
+            <td>
+                <textarea name="" id="" rows="10" cols="40"></textarea>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <input type="submit" value="Login">
+                <input type="reset" value="Refresh">
+                <button>Button Tag</button>
+            </td>
+        </tr>
+    </table>
+</form>
+   
+</body>
+</html>
