@@ -1,0 +1,65 @@
+h1{
+    color:grey;
+    background:black;
+    width:300px;
+    /* background:linear-gradient(to right,red,blue); */
+    /* background-clip:text;  */
+    /* background:linear-gradient(to right,#ff584f,#580b9c); */
+    /* background:radial-gradient(#ff584f,#580b9c); */
+}
+table{
+    border-collapse:collapse;
+    width:100%;
+}
+tr:nth-child(odd){
+    background:green;
+}
+
+tr:hover{
+    background:black;
+    color:white;
+}
+input:hover{
+    background:red;
+}
+input:focus{
+    background:#00ff48;
+}
+input:active{
+    background:blue;
+}
+h1:nth-child(odd){
+    background:blue;
+}
+h1:nth-child(even){
+    background:grey;
+}
+h1:hover{
+    width:700px;
+    transition:2s;
+}
+#h1{
+    color:blue;
+}
+.ww{
+    color:orange;
+}
+
+
+/* Apply individually to all tags-* */
+*{
+}
+/* Apply commonly to all tags-body */
+body{
+}
+.insta{
+    color:transparent;
+    background:linear-gradient(pink,purple);
+    background-clip:text;
+}
+.fb{
+    color:#1d38d0;
+}
+.wa{
+    color:green;
+}
