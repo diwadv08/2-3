@@ -1,0 +1,36 @@
+h1{
+    background:black;
+    color:white;
+    transition:2s;
+}
+    /*transform- scale(),rotate(),skew(),translate() */
+    /* transform:translate(0px,-100px); */
+    /* background:purple; */
+
+
+/*overflow- auto,scroll,hidden,visible */
+
+/* div{
+    height:300px;
+    width:150px;
+    background:red;
+    overflow:auto;
+} */
+img{
+    height:200px;
+    width:300px;
+    transition:2s;
+}
+img:hover{
+    /* opacity:0.1; */
+
+    /* filter- grayscale(),saturate(0-1),brightness(0-1),contrast(0-1) */
+    filter:contrast(5) brightness(0.4);
+    transform:scale(2) rotate(10deg);
+}
+div{
+    display:inline-block;
+    height:200px;
+    width:300px;
+    overflow:hidden;
+}
