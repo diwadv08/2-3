@@ -47,11 +47,9 @@ h1:hover{
 
 
 /* Apply individually to all tags-* */
-*{
-}
+
 /* Apply commonly to all tags-body */
-body{
-}
+
 .insta{
     color:transparent;
     background:linear-gradient(pink,purple);

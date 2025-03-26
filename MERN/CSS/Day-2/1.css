@@ -1,0 +1,61 @@
+h1{
+    /* px-pixels */
+    /* em-element */
+    /* rem-root element */
+    /*  px,rem,em, %-only for images & width   */
+    /* left,right,center */
+    /* font-size:10rem; */
+    /* font-style:normal; */
+    /* background:#e3e3e3; */
+    /* line-height:200px; */
+    /* text-align:center; */
+    /* font-weight:600; */
+    /* text-indent:30rem; */
+    /* underline,overline,line-through,none */
+    /* text-decoration:line-through; */
+    /* letter-spacing:50px; */
+    /* word-spacing:150px; */
+    /* uppercase,lowercase,capitalize */
+    /* text-transform:capitalize; */
+    /* serif,sans-serif,monospace,cursive,fantasy */
+    /* font-family:Kaushan Script; */
+}
+i{
+    font-size:10px;
+}
+
+ul{
+    /* upper-alpha,upper-roman,lower-alpha,lower-roman */
+    list-style-type:none;
+}
+
+a{
+    text-decoration:none;
+}
+
+/* Regular Fonts */
+/* Poppins,Roboto */
+
+/* Cursive Font */
+/* Kaushan Script,yellowtail */
+
+
+.red{
+    background:red;
+}
+.blue{
+    background:blue;
+}
+.main{
+    background:red;
+}
+
+h1{
+    /* inline,block,inline-block */
+    background:red;
+    display:inline-block;
+    width:33%;
+}
+a{
+    display:block;
+}
