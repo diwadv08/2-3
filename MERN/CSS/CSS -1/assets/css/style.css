@@ -1,0 +1,47 @@
+*{
+    margin:0;
+}
+a{
+    text-decoration:none;
+}
+/* ========================Header css========================== */
+.header{
+    background:black;
+    opacity:0.5;
+    position:fixed;
+    z-index:1;
+    width:100%;
+}
+.header:hover{
+    opacity:1;
+}
+.header a{
+    display:inline-block;
+    padding:10px;
+    color:white;
+}
+.header a:hover{
+    background:#c0bdbd;
+    color:black;
+}
+
+
+/*=================================================== Home Bg */
+.home_bg_img{
+    /* background:url(../images/bg.jpg) no-repeat fixed; */
+
+    background-image:url(../images/bg.jpg);
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    background-size:cover;
+
+    
+    height:500px;
+    filter:saturate(0.6);
+    text-align:center;
+}
+.content{
+    position: relative;
+    top:150px;
+    color:white;
+}
