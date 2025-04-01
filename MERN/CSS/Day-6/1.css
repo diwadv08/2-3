@@ -1,0 +1,94 @@
+*{
+    margin:0;
+}
+.animate{
+    height:60px;
+    width:60px;
+    background:red;
+    /* margin:auto;
+    margin-top:20%; */
+    border-radius:0px;
+    animation:sdfd 6s infinite linear;
+}
+
+@keyframes sdfd{
+    /* from{
+        background:red;
+        transform:scale(1) rotate(0);
+    }
+    to{
+        background:blue;
+        transform:scale(5) rotate(360deg);
+    } */
+     /* 0%{
+        background:red;
+        margin-left:0;
+        margin-top:0;
+     }
+     25%{
+        background:green;
+        margin-left:400px;
+        margin-top:0;
+     }
+     50%{
+        background:blue;
+        margin-left:400px;
+        margin-top:400px;
+     }
+     75%{
+        background:purple;
+        margin-left:0;
+        margin-top:400px;
+     }
+     100%{
+        background:black;
+        margin-left:0;
+        margin-top:0;
+     } */
+}
+
+.header>a{
+    /* color:white;
+    text-decoration:none;
+    margin-right:20px;
+    transition:1s; */
+    /* background:black; */
+    /* border:1px solid;
+    padding:4px 30px;
+    border-radius:4px;
+    display:inline-block; */
+}
+.header>a:hover{
+    /* background:white;
+    color:black;
+    border:1px solid white; */
+
+}
+
+.header{
+    background:red;
+    padding:10px;
+    position:relative;
+    z-index:1;
+}
+.header>a{
+    position:relative;
+    color:white;
+    text-decoration:none;
+    margin-right:10px;
+}
+
+.header>a::before{
+    content:'';
+    height:0;
+    width:100%;
+    /* border-radius:40px; */
+    position:absolute;
+    top:0%;
+    z-index:-1;
+    background:#000000;
+    transition:.8s;
+}
+.header>a:hover::before{
+    height:100%;
+}
