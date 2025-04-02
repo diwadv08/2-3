@@ -1,0 +1,13 @@
+.main{
+    background:red;
+    display:flex;
+    height:900px;
+    /* start,end,center,space-between,space-around,space-evenly */
+    /* flex-direction:column; */
+    justify-content:space-between;
+    align-items:center;
+    /* start,end,center */
+    /* align-items:center; */
+
+    /* gap:30px; */
+}

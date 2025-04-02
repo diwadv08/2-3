@@ -1,0 +1,35 @@
+/* Header css======================================= */
+*{
+    margin:0;
+}
+a{
+    text-decoration:none;
+}
+.header{
+    background:#6226a6;
+    display:flex;
+    align-items:center;
+    gap:190px;
+    padding:10px 20px;
+}
+.header>h1{
+    font-size:4rem;
+    color:white;
+}
+.header>.logo>img{
+    height:90px;
+    border-radius:90px;
+}
+.links{
+    display:flex;
+    gap:20px;
+    background:#f2ecf9;
+    padding:10px;
+}
+.links>a{
+    background:#ef02c7;
+    padding:10px 30px;
+    color:white;
+    font-weight:900;
+    border-radius:5px;
+}
