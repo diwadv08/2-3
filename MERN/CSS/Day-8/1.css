@@ -1,0 +1,51 @@
+ /*div{
+    background:url(https://img.freepik.com/free-vector/elegant-studio-background-with-blue-gradient_107791-31978.jpg?t=st=1743669407~exp=1743673007~hmac=3a5f4cc77787852d10ef059d5b136a47652fe720e8a1ec1a03c34d3216e0ce48&w=1380) no-repeat fixed;
+    background-size:cover; */
+
+    /* background-image:url(https://img.freepik.com/free-vector/elegant-studio-background-with-blue-gradient_107791-31978.jpg?t=st=1743669407~exp=1743673007~hmac=3a5f4cc77787852d10ef059d5b136a47652fe720e8a1ec1a03c34d3216e0ce48&w=1380);
+    background-repeat:no-repeat;
+    background-size:100%;
+    background-attachment:fixed;
+} */
+div{
+    /* display:flex;
+    gap:30px;
+     */
+    /* flex-wrap:no-wrap; */
+}
+h1{
+    position:relative;
+    z-index:2;
+}
+h1::before{
+    content:'';
+    position:absolute;
+    z-index:-1;
+    top:0%;
+    height:100%;
+    width:0;
+    transition:.8s;
+    border-radius:10px;
+    background:red;
+}
+/* h1:hover::before{
+    width:300px;
+} */
+ h1:nth-child(1){
+    background:red;
+ }
+ h1:nth-child(2){
+    background:blue;
+ }
+ h1:nth-child(3){
+    background:green;
+ }
+ h1:nth-child(4){
+    right:0;
+    top:20px;
+    background:grey;
+    position:sticky;
+ }
+/* img{
+    float:left;
+} */
