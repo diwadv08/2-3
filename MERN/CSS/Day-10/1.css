@@ -1,0 +1,51 @@
+:root{
+    --main-color:#d60a2c;
+    --header_footer-height:70px;
+    --main-padding:30px 40px;
+}
+*{
+    margin:0;
+}
+body{
+    background:#ebebeb;
+}
+.header,.footer{
+    background:var(--main-color);
+    height:var(--header_footer-height);
+}
+.main{
+    display:flex;
+    height:430px;
+    padding:var(--main-padding);
+}
+.main>.div-left{
+    background:grey;
+    height:430px;
+    width:50%;
+}
+.main>.div-right{
+    background:blue;
+    height:430px;
+    width:50%;
+}
+.content>.content1{
+    display:flex;
+    justify-content:center;
+}
+.content>.content2{
+    display:flex;
+    justify-content:center;
+
+}
+.content>.content1>.card{
+    background:var(--main-color);
+    height:200px;
+    width:200px;
+    margin:10px;
+}
+.content>.content2>.card{
+    background:var(--main-color);
+    height:200px;
+    width:200px;
+    margin:10px;
+}

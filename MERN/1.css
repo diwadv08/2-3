@@ -1,0 +1,23 @@
+*{
+    margin:0;
+}
+h1{
+    background:red;
+    width:10%;
+    margin:auto;
+}
+table>tbody>tr>td{
+    padding:15px;
+}
+table>tbody>tr>td>input,table>tbody>tr>td>textarea{
+    background:red;
+    width:220px;
+    border:none;
+    height:18px;
+}
+table>tbody>tr>td>button{
+    width:228px;
+    border:none;
+    height:25px;
+    background:grey;
+}
